@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHD10rnbrgEaLJBPPwUHqQQAAAAACAAAAAAAQZgAAAAEAACAAAABgA2sSvPXKL9l1Ty2yw3A+5k8/xWadTOKugBAmWnZ09wAAAAAOgAAAAAIAACAAAADAYMmoeGDTfY1d8RvMGXL0lXoyvO0+UvSNPt8wpy02bIAAAADRSQE8PY3XVU4b+t74r182DZmmsQ6J22cuO/w98i4n2BOEADO4E9C2RoP5WNFvckhJmyrb8dx9A3zm5fpm2tVxCW/PWSREMdYEhae6Ri/7P9KQAVeztcuB1m11ImHIXJfaQ1U89tYilXEDlNosw/awpbtlQaFpDrOkapeCS+d4y0AAAABO2JQ610//IGV0Xkb+nKChEOJhC8NvWkmb/R6PRCeQyIOxJqPLCmoCloVXXXVu+gTYgc/oJGL1bAvJ0dchCRK9</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DevConnection">
+      <Value>Server=tcp:demodatabaseserver4135.database.windows.net,1433%3bInitial Catalog=DotNetCoreTrial%3bPersist Security Info=False%3bUser ID=shatil4135%3bPassword={your_password}%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

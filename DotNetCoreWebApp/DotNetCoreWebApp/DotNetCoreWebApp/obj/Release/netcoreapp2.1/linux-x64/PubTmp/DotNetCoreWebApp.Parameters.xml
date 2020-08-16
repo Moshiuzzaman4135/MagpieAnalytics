@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="stockmarketdata4135" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\shati\\OneDrive\\Desktop\\Intenship\\DotNetCoreWebApp\\DotNetCoreWebApp\\DotNetCoreWebApp\\obj\\Release\\netcoreapp2\.1\\linux-x64\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

@@ -1,0 +1,76 @@
+﻿@model DotNetCoreWebApp.Models.StocksJSON
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>JSON File Read</h2>
+
+<p>
+    
+    <input type="button" class="btn-danger" value="Database View" onclick="location.href='@Url.Action("Index", "Stocks")'" />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <label>Date</label>
+            </th>
+            <th>
+                <label>Trade Code</label>
+                
+            </th>
+            <th><label>High</label>
+                
+            </th>
+            <th><label>Low</label>
+                
+            </th>
+            <th><label>Open</label>
+                
+            </th>
+            <th><label>Close</label>
+                
+            </th>
+            <th><label>Volume</label>
+                
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Stocks)
+        {
+            <tr>
+                <td>
+                    @item.Date
+                </td>
+            
+                <td>
+                    @item.Trade_Code
+                </td>
+            
+                <td>
+                    @item.High
+                </td>
+           
+                <td>
+                    @item.Low
+                </td>
+            
+                <td>
+                    @item.Open
+                </td>
+            
+                <td>
+                    @item.Close
+                </td>
+            
+                <td>
+                    @item.Volume
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
